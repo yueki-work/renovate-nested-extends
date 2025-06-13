@@ -1,7 +1,7 @@
 {
     "extends": [
         ":disableRateLimiting"
-    ]
+    ],
     "baseBranches": ["main", "main-v2"],
     "dependencyDashboard": true
     "packageRules": [
