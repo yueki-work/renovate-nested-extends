@@ -3,7 +3,7 @@
         ":disableRateLimiting"
     ],
     "baseBranches": ["main", "main-v2"],
-    "dependencyDashboard": true
+    "dependencyDashboard": true,
     "packageRules": [
         {
             "matchBaseBranches": ["main"],
