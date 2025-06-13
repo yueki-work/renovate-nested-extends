@@ -1,1 +1,13 @@
-{}
+{
+    "baseBranches": ["main", "main-v2"],
+    "packageRules": [
+        {
+            "matchBaseBranches": ["main"],
+            "extends": ["github>yueki-work/renovate-nested-extends//preset/main.json"]
+        },
+        {
+            "matchBaseBranches": ["main-v2"],
+            "extends": ["github>yueki-work/renovate-nested-extends//preset/main-v2.json"]
+        }
+    ]
+}
