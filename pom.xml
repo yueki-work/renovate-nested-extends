@@ -1,0 +1,16 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>test</groupId>
+  <artifactId>test</artifactId>
+  <version>1.0</version>
+  <properties>
+    <jetty>11.0.25</jetty>
+  </properties>
+  <dependencies>
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>${jetty}</version>
+    </dependency>
+  </dependencies>
+</project>
