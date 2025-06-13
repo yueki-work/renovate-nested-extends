@@ -1,17 +1,18 @@
 {
     "extends": [
-        ":disableRateLimiting"
+        ":disableRateLimiting",
+        "github>yueki-work/renovate-nested-extends//preset/root.json"
     ],
     "baseBranches": ["main", "main-v2"],
     "dependencyDashboard": true,
     "packageRules": [
         {
             "matchBaseBranches": ["main"],
-            "extends": ["local>yueki-work/renovate-nested-extends//preset/main.json"]
+            "extends": ["github>yueki-work/renovate-nested-extends//preset/main.json"]
         },
         {
             "matchBaseBranches": ["main-v2"],
-            "extends": ["local>yueki-work/renovate-nested-extends//preset/main-v2.json"]
+            "extends": ["github>yueki-work/renovate-nested-extends//preset/main-v2.json"]
         }
     ]
 }
