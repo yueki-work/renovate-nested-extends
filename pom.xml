@@ -4,7 +4,7 @@
   <artifactId>test</artifactId>
   <version>1.0</version>
   <properties>
-    <jetty>11.0.25</jetty>
+    <jetty>12.1.5</jetty>
   </properties>
   <dependencies>
     <dependency>
