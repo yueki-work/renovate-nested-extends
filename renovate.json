@@ -13,6 +13,12 @@
         {
             "matchBaseBranches": ["main-v2"],
             "extends": ["github>yueki-work/renovate-nested-extends//preset/main-v2.json"]
+        },
+        {
+          "matchPackageNames": [
+            "org.sonarqube:*"
+          ],
+          "allowedVersions": "!7.2.0.6526"
         }
     ]
 }
