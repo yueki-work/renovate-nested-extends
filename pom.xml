@@ -12,5 +12,13 @@
         <artifactId>jetty-server</artifactId>
         <version>${jetty}</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.sonarqube/org.sonarqube.gradle.plugin -->
+    <dependency>
+      <groupId>org.sonarqube</groupId>
+      <artifactId>org.sonarqube.gradle.plugin</artifactId>
+      <version>7.0.0.6105</version>
+      <type>pom</type>
+    </dependency>
   </dependencies>
 </project>
